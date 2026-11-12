@@ -26,18 +26,26 @@ all in one window.
 - Zoom in/out, fit to window, or view at 100%
 - Discard all pages to start over
 
+## Download
+
+1. Download `ScanStudio.exe` from the [latest release](https://github.com/kimchhenglim/scan-studio-windows-tool/releases/latest).
+2. Double-click to run. No installation or .NET runtime needed.
+
+> Windows may show a "Windows protected your PC" warning because the app
+> isn't code-signed. Click **More info** → **Run anyway**.
+
 ## Requirements
 
 - Windows 10 or 11
 - A scanner with Windows drivers installed
-- [.NET X SDK](https://dotnet.microsoft.com/download) (to build from source)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download) (to build from source)
 
 ## Getting started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/ScanStudio.git
+   git clone https://github.com/kimchhenglim/scan-studio-windows-tool.git
    ```
 
 2. Open `ScanStudio.csproj` in Visual Studio (File → Open → Project/Solution),
